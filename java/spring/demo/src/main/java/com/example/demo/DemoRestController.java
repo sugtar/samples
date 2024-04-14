@@ -1,6 +1,5 @@
 package com.example.demo;
 
-
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -14,7 +13,6 @@ import org.slf4j.LoggerFactory;
 public class DemoRestController {
 
     private static final Logger logger = LoggerFactory.getLogger(DemoRestController.class);
-
 
     @RequestMapping("/")
     public String index() {
